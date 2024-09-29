@@ -89,7 +89,8 @@ pdf("/Users/tpminh/Desktop/trinity asds/stat analysis 1/ps1/scatter1.pdf")
 plot( expenditure$X1,expenditure$Y)
 dev.off()
 #change colour and symbol
-pdf("/Users/tpminh/Desktop/trinity asds/stat analysis 1/ps1/scatter2.pdf")
+pdf("/Users/tpminh/Desktop/trinity asds/stat analysis 1/ps1/scatter3.pdf")
 plot( expenditure$X1,expenditure$Y, col = expenditure$Region, pch = expenditure$Region)
-
+legend("topleft", c("1","2","3","4"), fill = 1:4)
+dev.off()
 
